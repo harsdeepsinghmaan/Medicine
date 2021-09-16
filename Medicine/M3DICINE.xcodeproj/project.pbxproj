@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F30457926F1F2D000853D3E /* FDWaveformView in Frameworks */ = {isa = PBXBuildFile; productRef = 5F30457826F1F2D000853D3E /* FDWaveformView */; };
+		5FDAB19B26EEE1D5009F34DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDAB19A26EEE1D5009F34DA /* AppDelegate.swift */; };
+		5FDAB19D26EEE1D5009F34DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDAB19C26EEE1D5009F34DA /* SceneDelegate.swift */; };
+		5FDAB19F26EEE1D5009F34DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDAB19E26EEE1D5009F34DA /* ViewController.swift */; };
+		5FDAB1A226EEE1D5009F34DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDAB1A026EEE1D5009F34DA /* Main.storyboard */; };
+		5FDAB1A426EEE1D9009F34DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDAB1A326EEE1D9009F34DA /* Assets.xcassets */; };
+		5FDAB1A726EEE1D9009F34DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDAB1A526EEE1D9009F34DA /* LaunchScreen.storyboard */; };
+		5FE0C76726F3165E0064C896 /* audioFile.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0C76626F3165E0064C896 /* audioFile.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FDAB19726EEE1D5009F34DA /* M3DICINE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M3DICINE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDAB19A26EEE1D5009F34DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FDAB19C26EEE1D5009F34DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FDAB19E26EEE1D5009F34DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FDAB1A126EEE1D5009F34DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FDAB1A326EEE1D9009F34DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FDAB1A626EEE1D9009F34DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FDAB1A826EEE1D9009F34DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE0C76626F3165E0064C896 /* audioFile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = audioFile.wav; path = M3DICINE/Resource/audioFile.wav; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDAB19426EEE1D5009F34DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F30457926F1F2D000853D3E /* FDWaveformView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDAB18E26EEE1D5009F34DA = {
+			isa = PBXGroup;
+			children = (
+				5FDAB19926EEE1D5009F34DA /* M3DICINE */,
+				5FDAB19826EEE1D5009F34DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDAB19826EEE1D5009F34DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDAB19726EEE1D5009F34DA /* M3DICINE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDAB19926EEE1D5009F34DA /* M3DICINE */ = {
+			isa = PBXGroup;
+			children = (
+				5FDAB19A26EEE1D5009F34DA /* AppDelegate.swift */,
+				5FDAB19C26EEE1D5009F34DA /* SceneDelegate.swift */,
+				5FDAB19E26EEE1D5009F34DA /* ViewController.swift */,
+				5FDAB1A026EEE1D5009F34DA /* Main.storyboard */,
+				5FDAB1A326EEE1D9009F34DA /* Assets.xcassets */,
+				5FDAB1A526EEE1D9009F34DA /* LaunchScreen.storyboard */,
+				5FDAB1A826EEE1D9009F34DA /* Info.plist */,
+				5FE0C76526F3163B0064C896 /* Resource  */,
+			);
+			path = M3DICINE;
+			sourceTree = "<group>";
+		};
+		5FE0C76526F3163B0064C896 /* Resource  */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0C76626F3165E0064C896 /* audioFile.wav */,
+			);
+			path = "Resource ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDAB19626EEE1D5009F34DA /* M3DICINE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDAB1AB26EEE1D9009F34DA /* Build configuration list for PBXNativeTarget "M3DICINE" */;
+			buildPhases = (
+				5FDAB19326EEE1D5009F34DA /* Sources */,
+				5FDAB19426EEE1D5009F34DA /* Frameworks */,
+				5FDAB19526EEE1D5009F34DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M3DICINE;
+			packageProductDependencies = (
+				5F30457826F1F2D000853D3E /* FDWaveformView */,
+			);
+			productName = M3DICINE;
+			productReference = 5FDAB19726EEE1D5009F34DA /* M3DICINE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDAB18F26EEE1D5009F34DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5FDAB19626EEE1D5009F34DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5FDAB19226EEE1D5009F34DA /* Build configuration list for PBXProject "M3DICINE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FDAB18E26EEE1D5009F34DA;
+			packageReferences = (
+				5F30457726F1F2D000853D3E /* XCRemoteSwiftPackageReference "FDWaveformView" */,
+			);
+			productRefGroup = 5FDAB19826EEE1D5009F34DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDAB19626EEE1D5009F34DA /* M3DICINE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDAB19526EEE1D5009F34DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDAB1A726EEE1D9009F34DA /* LaunchScreen.storyboard in Resources */,
+				5FDAB1A426EEE1D9009F34DA /* Assets.xcassets in Resources */,
+				5FDAB1A226EEE1D5009F34DA /* Main.storyboard in Resources */,
+				5FE0C76726F3165E0064C896 /* audioFile.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDAB19326EEE1D5009F34DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDAB19F26EEE1D5009F34DA /* ViewController.swift in Sources */,
+				5FDAB19B26EEE1D5009F34DA /* AppDelegate.swift in Sources */,
+				5FDAB19D26EEE1D5009F34DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FDAB1A026EEE1D5009F34DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDAB1A126EEE1D5009F34DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FDAB1A526EEE1D9009F34DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDAB1A626EEE1D9009F34DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FDAB1A926EEE1D9009F34DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FDAB1AA26EEE1D9009F34DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FDAB1AC26EEE1D9009F34DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = M3DICINE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsdeep.M3DICINE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5FDAB1AD26EEE1D9009F34DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = M3DICINE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsdeep.M3DICINE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDAB19226EEE1D5009F34DA /* Build configuration list for PBXProject "M3DICINE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDAB1A926EEE1D9009F34DA /* Debug */,
+				5FDAB1AA26EEE1D9009F34DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDAB1AB26EEE1D9009F34DA /* Build configuration list for PBXNativeTarget "M3DICINE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDAB1AC26EEE1D9009F34DA /* Debug */,
+				5FDAB1AD26EEE1D9009F34DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F30457726F1F2D000853D3E /* XCRemoteSwiftPackageReference "FDWaveformView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fulldecent/FDWaveformView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F30457826F1F2D000853D3E /* FDWaveformView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F30457726F1F2D000853D3E /* XCRemoteSwiftPackageReference "FDWaveformView" */;
+			productName = FDWaveformView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5FDAB18F26EEE1D5009F34DA /* Project object */;
+}
